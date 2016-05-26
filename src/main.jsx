@@ -57,7 +57,7 @@ let render = () => {
 if (__DEV__) {
   if (module.hot) {
     // Development render functions
-    const renderApp = render
+    const renderApp = render;
     const renderError = (error) => {
       const RedBox = require('redbox-react').default;
 
