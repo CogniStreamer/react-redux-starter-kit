@@ -24,7 +24,7 @@ const webpackConfig = {
 // Entry Points
 // ------------------------------------
 const APP_ENTRY_PATHS = [
-  paths.client('main.js')
+  paths.client('main.jsx')
 ]
 
 webpackConfig.entry = {
